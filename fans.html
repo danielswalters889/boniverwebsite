@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Simple Bon Iver Fan Club Sign-Up</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <header>
+    <h1>
+      Bon Iver
+    </h1>
+    <img src="images/boniverartwork-795w.jpg" alt='Bon Iver Logo'>
+  </header>
+
+  <main>
+    <article class='fanclub'>
+      <h2>
+        Join Our Fan Club!
+      </h2>
+      <form action='contactform.php' method='post'>
+        <ul>
+          <li>
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="Email">
+          </li>
+          <li>
+            <label class='formlabel'>Username:</label>
+            <input class='formlabel' type="text" name="username" placeholder="Create Username">
+          </li>
+          <li>
+            <label class='formlabel'>Password:</label>
+            <input class='formlabel' type="password" name="pwd" placeholder="Password">
+          </li>
+          <li>
+            <label class='formlabel'>Confirm:</label>
+            <input class='formlabel' type="password" name="pwd" placeholder="Confirm Password">
+          </li>
+          <li>
+            <label class='formlabel'>Message:</label>
+            <textarea class='formlabel' name="message" placeholder="Write a Message to the Admnistrator"></textarea>
+          </li>
+          <li class="button">
+            <button type="submit">Sign Up</button>
+          </li>
+        </ul>
+      </form>
+      <p>
+        Click <a href='index.html'>here</a> to go back home.
+      </p>
+    </article>
+
+    <div class="clearfix"></div>
+
+    <div class="closing-image">
+      <picture>
+        <source media="(max-width: 799px)" srcset="images/bonivercloseup-800w.jpg">
+        <source media="(min-width: 800px)" srcset="images/boniverclosing-800w.jpg">
+          <img src="images/boniverclosing-800w.jpg" alt="Bon Iver Fun Art for Closing Image">
+      </picture>
+    </div>
+
+    </main>
+    </body>
+
+</html>
